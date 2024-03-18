@@ -21,32 +21,32 @@ class CalculatorTest {
         double x = 1;
         double y = 1;
         double output = new Calculator().calculate(x,y, MathChar.ADDTION);
-        double result = x+y;
-        Assertions.assertEquals(result,output);
+        double expected = x+y;
+        Assertions.assertEquals(expected,output);
     }
     @Test
     public void subtractionTest() throws Exception {
         double x = 1;
         double y = 1;
         double output = new Calculator().calculate(x,y, MathChar.SUBTRACTION);
-        double result = x-y;
-        Assertions.assertEquals(result,output);
+        double expected = x-y;
+        Assertions.assertEquals(expected,output);
     }
     @Test
     public void divisionTest() throws Exception {
         double x = 1;
         double y = 1;
         double output = new Calculator().calculate(x,y, MathChar.DIVISION);
-        double result = x/y;
-        Assertions.assertEquals(result,output);
+        double expected = x/y;
+        Assertions.assertEquals(expected,output);
     }
     @Test
     public void multiplicationTest() throws Exception {
         double x = 1;
         double y = 1;
         double output = new Calculator().calculate(x,y, MathChar.MULTIPLICATION);
-        double result = x*y;
-        Assertions.assertEquals(result,output);
+        double expected = x*y;
+        Assertions.assertEquals(expected,output);
     }
 
 }
